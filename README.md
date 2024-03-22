@@ -1,11 +1,5 @@
 
 
-> auspex [ˈau̯s.pɛks] noun: An augur of ancient Rome, especially one who interpreted omens derived from the observation of birds.
-
-![](https://img.shields.io/github/license/FSecureLABS/awspx)
-![](https://img.shields.io/github/v/release/FSecureLABS/awspx)
-![](https://img.shields.io/github/contributors/FSecureLABS/awspx)
-
 # Overview
 
 **awspx** is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine *what* actions affect *which* resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like [Bloodhound](https://github.com/BloodHoundAD/BloodHound), awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted.
